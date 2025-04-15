@@ -1,0 +1,39 @@
+name: portolines_offline
+description: "Uma ferramenta de ajuda médica offline."
+publish_to: 'none' # Remove esta linha se desejar publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_gemma: ^0.8.4 # Verifique se este pacote funciona offline como desejado
+  http: ^1.3.0 # Revise o uso para garantir compatibilidade offline
+  cupertino_icons: ^1.0.8
+  language_detector: ^1.0.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon_512.png" # Substitua 'icon_512.png' pelo nome do arquivo que você copiou
+  # adaptive_icon_background: "#ffffff" # Cor de fundo para ícones adaptáveis (Android) - opcional
+  # adaptive_icon_foreground: "assets/images/icon_foreground.png" # Ícone foreground para adaptáveis (Android) - opcional
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ # Inclua a pasta de imagens para o aplicativo
+    - assets/data/   # Inclua qualquer outra pasta de dados offline
+    # Remova ou comente os caminhos web se a pasta 'assets/' for a fonte principal para o Android
+    # - web/favicon.png
+    # - web/icons/
+    # - web/manifest.json
