@@ -148,4 +148,3 @@ Contributions are welcome! If you have suggestions for improvements or bug fixes
 =======
 # portolines_offline
 An offline public transport assistant for the city of Porto — private, secure, and internet-free.
->>>>>>> c1faf8db19ea46b9956e5dfe134f2b1820914567
