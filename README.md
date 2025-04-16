@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Porto Lines Offline
 
 This Flutter project provides detailed public transportation information for the city of Porto, Portugal, focusing on assisting students in navigating between different locations.
@@ -24,12 +24,12 @@ This Flutter project provides detailed public transportation information for the
         * Open your terminal and execute:
 
             ```bash
-            curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
+            curl -fsSL https://ollama.com/install.sh | sh
             ```
 
     * **macOS:**
         * Go to: [https://ollama.ai/download](https://ollama.ai/download)
-        * Download and run the installer.
+        * Download and run the installer. - Requires macOS 11 Big Sur or later
 
 ### Git Installation
 
@@ -69,7 +69,7 @@ This Flutter project provides detailed public transportation information for the
     * Open your terminal and execute the following command:
 
         ```bash
-        git clone [https://github.com/portolines_offline.git](https://github.com/portolines_offline.git)
+        git clone https://github.com/pablowilliam/portolines_offline.git
         ```
 
 2.  **Navigate to the Project Folder:**
@@ -104,24 +104,15 @@ This Flutter project provides detailed public transportation information for the
         flutter pub get
         ```
 
-6.  **Run the Application in a Browser (Optional):**
-
-    * To run the application in Chrome or Edge, use one of the following commands:
-
-        ```bash
-        flutter run -d chrome
-        flutter run -d edge
-        ```
-
-7.  **Run Ollama:**
+6.  **Run Ollama:**
 
     * Open a new terminal and start the Ollama server:
 
         ```bash
-        ollama server &
+        ollama server
         ```
 
-8.  **Pull and Run the Gemma3:1b Model:**
+7.  **Pull and Run the Gemma3:1b Model:**
 
     * In the same terminal, execute:
 
@@ -129,7 +120,14 @@ This Flutter project provides detailed public transportation information for the
         ollama pull gemma3:1b
         ollama run gemma3:1b
         ```
+8.  **Run the Application in a Browser (Optional):**
 
+    * To run the application in Chrome or Edge, use one of the following commands:
+
+        ```bash
+        flutter run -d chrome
+        flutter run -d edge
+        ```
 ## Features
 
 * Provides detailed public transport routes in Porto.
