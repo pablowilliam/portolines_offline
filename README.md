@@ -122,7 +122,7 @@ This Flutter project provides detailed public transportation information for the
         ```
 8.  **Run the Application in a Browser (Optional):**
 
-    * To run the application in Chrome or Edge, use one of the following commands:
+    * To run the application in Chrome or Edge, open the **terminal in Visual Studio Code** and run one of the commands below:
 
         ```bash
         flutter run -d chrome
