@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Porto Lines Offline
 
 This Flutter project provides detailed public transportation information for the city of Porto, Portugal, focusing on assisting students in navigating between different locations.
@@ -146,3 +147,7 @@ This Flutter project provides detailed public transportation information for the
 ## Contribution
 
 Contributions are welcome! If you have suggestions for improvements or bug fixes, please open an issue or submit a pull request.
+=======
+# portolines_offline
+An offline public transport assistant for the city of Porto — private, secure, and internet-free.
+>>>>>>> c1faf8db19ea46b9956e5dfe134f2b1820914567
